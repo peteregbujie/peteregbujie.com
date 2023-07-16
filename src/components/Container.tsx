@@ -8,7 +8,7 @@ type Props = {};
 const Container = (props: Props) => {
  return (
   <section className="text-white body-font">
-   <div className="container flex flex-col items-center px-5 py-10 mx-auto md:flex-row">
+   <div className="container flex flex-col items-center p-5 mx-auto lg:py-10 md:flex-row">
     <div className="flex flex-col items-center mb-16 text-center lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:text-left md:mb-0">
      <p className="text-xl sm:text-2xl md:text-xl lg:text-2xl xl:text-3xl">
       Hello
@@ -20,9 +20,8 @@ const Container = (props: Props) => {
       </p>
      </h1>
      <p className="text-base sm:text-xl md:text-base lg:text-xl xl:text-2xl lg:pt-6">
-      Crafting digital experiences through innovative code, I am a passionate
-      web developer dedicated to turning ideas into captivating online
-      realities.
+      I craft digital experiences through innovative code. I am a passionate web
+      developer dedicated to turning ideas into captivating online realities.
      </p>
      <div className="flex items-center mt-6 md:mt-14">
       <ul className="flex items-center my-4 mr-6 space-x-2 sm:space-x-5 ">
