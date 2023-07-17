@@ -10,7 +10,7 @@ const Container = (props: Props) => {
   <section className="text-white body-font">
    <div className="container flex flex-col items-center p-5 mx-auto lg:py-10 md:flex-row">
     <div className="flex flex-col items-center mb-16 text-center lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:text-left md:mb-0">
-     <p className="text-xl sm:text-2xl md:text-xl lg:text-2xl xl:text-3xl">
+     <p className="text-xl font-bold sm:text-2xl md:text-xl lg:text-3xl xl:text-4xl">
       Hello
      </p>
      <h1 className="pt-2 text-4xl sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl lg:pt-6">
